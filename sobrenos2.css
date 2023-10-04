@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.Madre {
+    background-color: rgb(171, 170, 170);
+    width: 50%;
+    margin: 15px;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-radius: 30px;
+    flex-wrap: wrap;
+
+}
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    flex-basis: 50%;
+}
+
+.imagen {
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    margin: 10px 10px;
+    flex-basis: 50%;
+}

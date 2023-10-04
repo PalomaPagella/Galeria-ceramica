@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: rgb(171, 170, 170);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.logo1 {
+    width: 150px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+li {
+    padding: 15px;
+    list-style: none;
+
+}
+
+li :hover {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(23, 23, 23);
+}
+
+.galeriaimagenes {
+    padding: 30px;
+    margin: 10px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeriaimagenes img {
+    width: 300px;
+    padding: 5px 5px;
+
+}
